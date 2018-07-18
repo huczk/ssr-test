@@ -1,0 +1,47 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "ssr:serve": "vue-cli-service ssr:serve",
+    "ssr:build": "vue-cli-service ssr:build",
+    "ssr:start": "vue-cli-service ssr:start",
+    "generate": "vue-cli-service generate"
+  },
+  "dependencies": {
+    "@vueneue/ssr-core": "^0.3.1",
+    "@vueneue/ssr-server": "^0.3.0",
+    "register-service-worker": "^1.0.0",
+    "vue": "^2.5.16",
+    "vue-class-component": "^6.2.0",
+    "vue-meta": "^1.5.0",
+    "vue-no-ssr": "^0.2.2",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.5",
+    "@vue/cli-plugin-e2e-nightwatch": "^3.0.0-rc.5",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
+    "@vue/cli-plugin-pwa": "^3.0.0-rc.5",
+    "@vue/cli-plugin-unit-jest": "^3.0.0-rc.5",
+    "@vue/cli-service": "^3.0.0-rc.5",
+    "@vue/eslint-config-airbnb": "^3.0.0-rc.5",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "@vueneue/vue-cli-plugin-ssr": "^0.3.2",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack-node-externals": "^1.7.2",
+    "webpackbar": "^2.6.1"
+  }
+}
